@@ -1,0 +1,161 @@
+html{
+  margin: 0px;
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  height: 100%;
+  
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+     
+  background-image:url("../img/fondo.jpg");
+  /*Esto es para hacer la imagen responsiva*/
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+
+
+.micenter{
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin: 0px;
+  height: 90%;
+  flex: 1 0 auto;
+}
+
+
+.formulario{
+  margin-top: 1rem;
+}
+
+
+.input-field label {
+  color: #19BC80;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 0.3em;
+}
+
+.input-field label.active{
+  font-size: 1.5rem;
+}
+
+
+/*Cuadro input*/
+input:not([type]), input[type=text], input[type=password]{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.6rem;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding-left: 1rem;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+    color: #000000;
+}
+
+
+/*COLOR PLACEHOLDER*/
+::-webkit-input-placeholder {
+  color: #7B7878;
+  padding-left: 0px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #7B7878;
+  padding-left: 0px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #7B7878;
+  padding-left: 0px;
+}
+
+:-ms-input-placeholder {
+  color: #7B7878;
+  padding-left: 0px;
+}
+
+
+/*Boton formulario*/
+.mibtn{
+  border: none;
+  border-radius: 0.6rem;
+  display: inline-block;
+  height: 3rem;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  margin-top: 0px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.mibtn i{
+  font-size: 1.3rem;
+  line-height: inherit;
+}
+
+
+.mibtn:hover{
+  background-color: #2bbbad;
+}
+
+
+
+.center{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.center a{
+  color: #1F6A4E;
+}
+
+
+
+footer.mipage-footer {
+  margin-top: 0px;
+}
+
+footer.mipage-footer .mifooter-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #705230;
+}
+
+
+footer a{
+  color: rgba(255, 255, 255, 0.8);
+} 
+
+a#registro:visited{
+  color:red;
+}
